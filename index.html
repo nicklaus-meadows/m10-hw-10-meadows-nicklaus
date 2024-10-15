@@ -30,7 +30,7 @@
       </section>
       <article class="article__details">
         <h1 class="article__heading__h1">Main Heading</h1>
-        <p>
+        <p class="ps-of-main">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           mollitia, consequatur eaque, odio repellat optio quis dolore dolorem
           laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita
@@ -45,8 +45,12 @@
           repellendus numquam! Veniam quasi eius eum ratione natus doloremque
           recusandae consequuntur exercitationem?
         </p>
-        <img src="https://picsum.photos/500/500" alt="random image" />
-        <p>
+        <img
+          src="https://picsum.photos/500/500"
+          alt="random image"
+          class="main-section-image"
+        />
+        <p class="ps-of-main">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           mollitia, consequatur eaque, odio repellat optio quis dolore dolorem
           laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita
@@ -62,7 +66,7 @@
           consequuntur exercitationem?
         </p>
         <h2 class="article_heading__h2">Subheading</h2>
-        <p>
+        <p class="ps-of-main">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           mollitia, consequatur eaque, odio repellat optio quis dolore dolorem
           laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita
@@ -79,7 +83,9 @@
         </p>
       </article>
     </main>
-    <footer>&copy; company name <span id="year"></span></footer>
+    <footer class="original-footer">
+      &copy; company name <span id="year"></span>
+    </footer>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>

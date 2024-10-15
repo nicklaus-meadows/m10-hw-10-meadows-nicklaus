@@ -118,16 +118,19 @@
   cursor: pointer;
 }
 
-main article {
+/* completed */
+.article__details {
   padding: 48px 96px;
 }
 
-main p {
+/* completed */
+.ps-of-main {
   line-height: 1.75;
   margin-bottom: 48px;;
 }
 
-main > article img {
+/* completed */
+.main-section-image {
   float: left;
   width: 300px;
   height: auto;
@@ -135,7 +138,7 @@ main > article img {
   margin-bottom: 6px;
 }
 
-footer {
+.original-footer {
   margin-top: auto;
   background-color: var(--gray);
   text-align: center;
